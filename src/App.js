@@ -19,7 +19,6 @@ function App() {
           <Col xs ="9">
           <ProductList info={productInfo}></ProductList>
           </Col>
-
         </Row>
       </Container>
       
