@@ -4,7 +4,7 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                Navigation Component
+               <h1>{this.props.info.title}</h1>
             </div>
         );
     }
