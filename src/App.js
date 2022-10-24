@@ -1,9 +1,13 @@
-
+import CategoryList from "./CategoryList";
+import Navigation from "./Navigation";
+import ProductList from "./ProductList";
 
 function App() {
   return (
     <div>
-      helloooo 
+      <Navigation></Navigation>
+      <CategoryList></CategoryList>
+      <ProductList></ProductList>
     </div>
   );
 }
